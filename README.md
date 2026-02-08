@@ -10,31 +10,24 @@ This repository includes scripts related to basic shell commands, file and direc
 
 To run the scripts in this repository, you need a Linux or macOS system (or WSL on Windows), Bash shell version 4 or above, and basic knowledge of Linux commands.
 
-## How to Run the Scripts
+## How to Run the Scripts  
 
-First, clone the repository using the command:  
-git clone https://github.com/your-username/shell-scripting.git  
-
-Then navigate into the repository directory using:  
-cd shell-scripting  
-
-Give execution permission to the script you want to run using:  
-chmod +x script_name.sh  
-
-Finally, execute the script using:  
-./script_name.sh  
-
-## Folder Structure
-
-The repository is organized into multiple folders based on topics. A typical structure looks like this:  
-shell-scripting/  
-│  
-├── basics/  
-├── loops/  
-├── conditions/  
-├── functions/  
-├── file-handling/  
-└── README.md  
+1. **Clone the Repository**
+   ```bash
+    git clone https://github.com/anushkaadak2684/Shell-Scripting.git
+    ```
+2. **Navigate into the Repository Directory**
+   ```bash
+    cd Shell-Scripting
+    ```
+3. **Give Execution Permission to the Script**
+   ```bash
+    chmod +x script_name.sh
+    ```
+4. **Execute the Script**
+   ```bash
+    ./script_name.sh
+    ```
 
 ## Purpose of This Repository
 
@@ -51,5 +44,3 @@ Contributions are welcome. You can contribute by forking the repository, creatin
 ## License
 
 This repository is created for educational purposes. You are free to use, modify, and distribute the scripts.
-
-If you find this repository helpful, consider giving it a star.

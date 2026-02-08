@@ -39,8 +39,4 @@ The repository covers Bash syntax, variables and environment variables, input an
 
 ## Contributing
 
-Contributions are welcome. You can contribute by forking the repository, creating a new branch, committing your changes, and opening a pull request.
-
-## License
-
-This repository is created for educational purposes. You are free to use, modify, and distribute the scripts.
+This repository is created for educational purposes. You can contribute by forking the repository, creating a new branch, committing your changes, and opening a pull request.

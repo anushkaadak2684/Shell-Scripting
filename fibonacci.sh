@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Write a shell script to generate Fibonacci series up to N-th term, where N is user input.
+
 read -p "Enter the number of terms (N): " N
 
 a=0

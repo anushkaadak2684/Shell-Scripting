@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Write a shell script to find the sum of digits of a user supplied number. Also, check for invalid user inputs and show appropriate error message.
+
 read -p "Enter a number: " num
 
 if ! [[ "$num" =~ ^[0-9]+$ ]]; then

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Write a shell script to check an input string is a valid user name or not.
+
 echo "Username Rules:"
 echo "1. Must start with a letter or underscore."
 echo "2. Can only contain letters, numbers, underscores, or hyphens."

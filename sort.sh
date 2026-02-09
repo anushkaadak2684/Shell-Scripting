@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Write a shell script that sorts an array of integers using any well-known sorting algorithm.
 
 arr=("$@")
 if [ $# -lt 1 ]

@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# a) Write a shell script to implement a menu driven
+# integer calculator having the following operations:
+# 1. Addition of 2 numbers
+# 2. Subtraction of 2 numbers
+# 3. Multiplication of 2 numbers
+# 4. Division of 2 numbers
+# 5. Modulo of 2 numbers
+# 6. Exit
+# For each operation, the operands are taken as user input.
+
 while true
 do
     echo "---------------------------------"

@@ -1,22 +1,57 @@
 # Operating Systems
 
-This repository contains programs and scripts related to Operating Systems concepts, including Bash shell scripting and Linux kernel-level programming in C. It is created for learning, practicing, and implementing system-level concepts used in different operating environments. It focuses on automation, command-line operations, system programming, and understanding how operating systems work internally.
+This repository contains programs and scripts related to Operating Systems concepts, including Bash shell scripting and Linux kernel-level programming in C. It is created for learning, practicing, and implementing system-level concepts used in different operating environments.
 
 ---
 
 ## Contents
 
-This repository includes Bash shell scripts for automation, file and directory handling, conditional statements, loops, functions, user input handling, process management, and system utilities. It also includes Linux kernel-level programs written in C, covering kernel modules, system-level programming, process and memory concepts, file system interaction, and basic kernel development practices.
+### 1. Bash Shell Scripting
+
+- Automation tasks using Bash  
+- File and directory handling  
+- Conditional statements (if-else, case)  
+- Loops (for, while, until)  
+- Functions in Bash  
+- User input handling  
+- Process management  
+- Basic system utilities  
+- Command-line operations  
+
+---
+
+### 2. Linux Kernel Programming (C Language)
+
+- System-level programs written in C  
+- Linux kernel modules  
+- Kernel module compilation and loading  
+- Process-related concepts  
+- Memory-related concepts  
+- File system interaction  
+- Basic device-level interaction  
+- Linux system programming fundamentals  
 
 ---
 
 ## Requirements
 
-For Shell Scripts:
-Shell scripts in this repository can run on Linux, macOS, Windows (using WSL or Git Bash), or any system that supports Bash version 4 or above. Basic knowledge of Linux/Unix commands is recommended.
+### For Shell Scripts
 
-For Kernel Programs:
-Kernel-level programs cannot run on native Windows. They require a Linux system or Windows Subsystem for Linux (WSL). You will need GCC compiler, Linux kernel headers installed, and root privileges to load kernel modules. Kernel programs must be compiled and executed inside a Linux environment.
+- Linux system  
+- macOS  
+- Windows (using WSL or Git Bash)  
+- Bash version 4 or above  
+- Basic knowledge of Linux/Unix commands  
+
+### For Kernel and System-Level C Programs
+
+- Linux system or WSL (Windows Subsystem for Linux)  
+- GCC compiler  
+- Linux kernel headers  
+- Root privileges (for loading kernel modules)  
+- Basic understanding of kernel compilation  
+
+Note: Kernel programs cannot run on native Windows and must be executed inside a Linux environment.
 
 ---
 
@@ -24,7 +59,7 @@ Kernel-level programs cannot run on native Windows. They require a Linux system 
 
 Clone the repository:
 ```bash
-git clone https://github.com/anushkaadak2684/Operating-Systems.git
+git clone https://github.com/anushkaadak2684/Shell-Scripting.git
 ```
 
 Navigate into the directory:
@@ -44,7 +79,31 @@ Run the script:
 
 ---
 
-## How to Compile and Run Kernel Programs
+## How to Compile and Run C Programs (User-Level)
+
+Compile the C program:
+```bash
+gcc filename.c
+```
+
+Run the program:
+```bash
+./a.out
+```
+
+Compile with custom output name:
+```bash
+gcc filename.c -o output_name
+```
+
+Run:
+```bash
+./output_name
+```
+
+---
+
+## How to Compile and Run Kernel Modules
 
 Install kernel headers (Ubuntu example):
 ```bash
@@ -75,16 +134,38 @@ sudo rmmod module_name
 
 ## Purpose
 
-The purpose of this repository is to strengthen Operating Systems fundamentals, improve automation skills, understand Linux internals, learn kernel-level programming, prepare for technical interviews, and gain hands-on experience with real-world system programming.
+- Strengthen Operating Systems fundamentals  
+- Improve automation skills  
+- Understand Linux internals  
+- Learn kernel-level programming  
+- Gain hands-on system programming experience  
+- Prepare for technical interviews  
 
 ---
 
 ## Topics Covered
 
-Bash scripting fundamentals, variables and environment variables, input and output redirection, command-line arguments, conditional logic, loops, functions, error handling, debugging techniques, process management, Linux kernel basics, kernel module development, and system-level programming in C.
+- Bash syntax  
+- Variables and environment variables  
+- Input/output redirection  
+- Command-line arguments  
+- Conditional logic  
+- Loops  
+- Functions  
+- Error handling  
+- Debugging techniques  
+- Process management  
+- Linux kernel basics  
+- Kernel module development  
+- System-level programming in C  
 
 ---
 
 ## Contributing
 
-This repository is created for educational purposes. To contribute, fork the repository, create a new branch, commit your changes, and open a pull request for improvements related to Operating Systems, shell scripting, or kernel programming
+- Fork the repository  
+- Create a new branch  
+- Commit your changes  
+- Push to your fork  
+- Open a pull request  
+- Contribute improvements related to shell scripting, or kernel programming  

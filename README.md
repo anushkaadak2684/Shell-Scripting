@@ -1,42 +1,90 @@
-# Shell Scripting
+# Operating Systems
 
-This repository contains shell scripts written using Bash. It is created for learning, practicing, and implementing shell scripting concepts used in Linux-based systems. The scripts focus on automation, command-line operations, and problem-solving using Bash.
+This repository contains programs and scripts related to Operating Systems concepts, including Bash shell scripting and Linux kernel-level programming in C. It is created for learning, practicing, and implementing system-level concepts used in different operating environments. It focuses on automation, command-line operations, system programming, and understanding how operating systems work internally.
+
+---
 
 ## Contents
 
-This repository includes scripts related to basic shell commands, file and directory handling, conditional statements, loops, functions, user input, process handling, and system-level utilities. Each script is written in a simple and understandable manner to help beginners as well as intermediate learners.
+This repository includes Bash shell scripts for automation, file and directory handling, conditional statements, loops, functions, user input handling, process management, and system utilities. It also includes Linux kernel-level programs written in C, covering kernel modules, system-level programming, process and memory concepts, file system interaction, and basic kernel development practices.
+
+---
 
 ## Requirements
 
-To run the scripts in this repository, you need a Linux or macOS system (or WSL on Windows), Bash shell version 4 or above, and basic knowledge of Linux commands.
+For Shell Scripts:
+Shell scripts in this repository can run on Linux, macOS, Windows (using WSL or Git Bash), or any system that supports Bash version 4 or above. Basic knowledge of Linux/Unix commands is recommended.
 
-## How to Run the Scripts  
+For Kernel Programs:
+Kernel-level programs cannot run on native Windows. They require a Linux system or Windows Subsystem for Linux (WSL). You will need GCC compiler, Linux kernel headers installed, and root privileges to load kernel modules. Kernel programs must be compiled and executed inside a Linux environment.
 
-1. **Clone the Repository**
-   ```bash
-    git clone https://github.com/anushkaadak2684/Shell-Scripting.git
-    ```
-2. **Navigate into the Repository Directory**
-   ```bash
-    cd Shell-Scripting
-    ```
-3. **Give Execution Permission to the Script**
-   ```bash
-    chmod +x script_name.sh
-    ```
-4. **Execute the Script**
-   ```bash
-    ./script_name.sh
-    ```
+---
 
-## Purpose of This Repository
+## How to Run Shell Scripts
 
-The main purpose of this repository is to practice shell scripting fundamentals, improve automation skills, understand system-level scripting, and prepare for technical interviews and real-world scripting tasks.
+Clone the repository:
+```bash
+git clone https://github.com/anushkaadak2684/Operating-Systems.git
+```
+
+Navigate into the directory:
+```bash
+cd Operating-Systems
+```
+
+Give execution permission:
+```bash
+chmod +x script_name.sh
+```
+
+Run the script:
+```bash
+./script_name.sh
+```
+
+---
+
+## How to Compile and Run Kernel Programs
+
+Install kernel headers (Ubuntu example):
+```bash
+sudo apt install linux-headers-$(uname -r)
+```
+
+Compile using Makefile:
+```bash
+make
+```
+
+Insert the module:
+```bash
+sudo insmod module_name.ko
+```
+
+Check kernel logs:
+```bash
+dmesg
+```
+
+Remove the module:
+```bash
+sudo rmmod module_name
+```
+
+---
+
+## Purpose
+
+The purpose of this repository is to strengthen Operating Systems fundamentals, improve automation skills, understand Linux internals, learn kernel-level programming, prepare for technical interviews, and gain hands-on experience with real-world system programming.
+
+---
 
 ## Topics Covered
 
-The repository covers Bash syntax, variables and environment variables, input and output redirection, command-line arguments, conditional logic, loops, functions, error handling, and basic debugging techniques.
+Bash scripting fundamentals, variables and environment variables, input and output redirection, command-line arguments, conditional logic, loops, functions, error handling, debugging techniques, process management, Linux kernel basics, kernel module development, and system-level programming in C.
+
+---
 
 ## Contributing
 
-This repository is created for educational purposes. You can contribute by forking the repository, creating a new branch, committing your changes, and opening a pull request.
+This repository is created for educational purposes. To contribute, fork the repository, create a new branch, commit your changes, and open a pull request for improvements related to Operating Systems, shell scripting, or kernel programming
